@@ -1,11 +1,10 @@
-import { useState } from 'react'
 import { useRoutes } from 'react-router-dom'
 import routes from './router'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const route = useRoutes(routes)
 
-  return <div className="App">{useRoutes(routes)}</div>
+  return <div className="App">{route}</div>
 }
 
 export default App

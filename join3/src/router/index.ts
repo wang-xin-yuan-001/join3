@@ -1,9 +1,3 @@
-import { RouteObject } from 'react-router-dom'
-
-const routes = [
-  {
-    path: '/'
-  }
-] as RouteObject[]
+import routes from './routes'
 
 export default routes
